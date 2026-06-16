@@ -1,0 +1,16 @@
+{
+  "name": "zentra-proxy",
+  "version": "1.0.0",
+  "description": "Zentra Streaming Proxy - Vercel Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
